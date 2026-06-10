@@ -1,5 +1,5 @@
 
-import { UserStore } from "../Store/Userstore";
+import { useUserStore } from "../Store/Userstore";
 import { Link } from "react-router-dom";
 
 
