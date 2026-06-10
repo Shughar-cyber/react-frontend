@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 export const Navbar = () => {
-    const {isLoggedIn, user, logout} = UserStore()
+    const {isLoggedIn, user, logout} = useUserStore()
 
     return (
         <nav className="bg-gray-800 p-4">
